@@ -9,12 +9,12 @@ maintainers:
 dependencies:
   - condition: krakend.enabled
     name: krakend
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
 
   - condition: frinx-frontend.enabled
     name: frinx-frontend
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
 
   - condition: postgresql.enabled
@@ -24,17 +24,17 @@ dependencies:
 
   - condition: uniresource.enabled
     name: uniresource
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
 
   - condition: uniflow.enabled
     name: uniflow
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
 
   - condition: inventory.enabled
     name: inventory
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 2.x.x
 
   - condition: uniconfig-postgresql.enabled
@@ -45,10 +45,10 @@ dependencies:
 
   - condition: uniconfig.enabled
     name: uniconfig
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
 
   - condition: demo-workflows.enabled
     name: demo-workflows
-    repository: https://FRINXio.github.io/helm-charts
+    repository: https://marosmars.github.io/helm-charts
     version: 1.x.x
