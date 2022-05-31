@@ -24,6 +24,13 @@ postgresql:
           CREATE DATABASE schellar;
           CREATE DATABASE conductor;
           CREATE DATABASE inventory;
+    resources:
+      limits:
+        memory: 256Mi
+        cpu: 250m
+      requests:
+        memory: 256Mi
+        cpu: 250m
 
 uniresource:
   enabled: true
